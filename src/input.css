@@ -2,6 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
+.section-container {
+  @apply mx-auto max-w-6xl px-10 text-center;
+}
+.section-container-h3 {
+  @apply mb-8 text-center text-4xl font-bold text-darkGrayishBlue md:text-5xl;
+}
+.section-container-p {
+  @apply mx-auto mb-10 max-w-3xl text-2xl text-darkGrayishBlue;
+}
+.btn-container {
+  @apply flex w-full flex-col justify-center space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
+}
+.btn {
+  @apply rounded-full p-4 px-8 shadow-lg duration-200 hover:opacity-80;
+}
+.items-container {
+  @apply flex flex-col space-y-16;
+}
+.item {
+  @apply space-y-2 text-center;
+}
+.item-h4 {
+  @apply text-2xl font-bold text-darkGrayishBlue;
+}
+.item-p {
+  @apply max-w-md text-xl text-grayishBlue;
+}
+.features-container {
+  @apply relative flex flex-col space-y-16 md:flex-row md:space-x-32;
+}
+.features-img-container {
+  @apply md:w-1/2;
+}
+.features-img {
+  @apply right-1/2 top-0 md:absolute;
+}
+/* Background CSS */
 body {
   background-image: url('../images/bg-header-desktop.png');
   background-repeat: no-repeat;
