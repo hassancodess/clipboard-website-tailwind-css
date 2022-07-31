@@ -38,6 +38,31 @@
 .features-img {
   @apply right-1/2 top-0 md:absolute;
 }
+.supercharge-container {
+  @apply flex flex-col space-y-20 md:flex-row md:space-y-0 md:space-x-10;
+}
+.supercharge-item {
+  @apply flex flex-col items-center space-y-4;
+}
+.supercharge-img {
+  @apply mx-auto mb-6 h-9 w-10;
+}
+.supercharge-h4 {
+  @apply max-w-md text-2xl font-bold text-darkGrayishBlue;
+}
+.supercharge-p {
+  @apply max-w-md text-grayishBlue;
+}
+.references-container {
+  @apply mx-auto my-44 flex max-w-6xl flex-col items-center justify-between space-y-16 px-10 md:flex-row md:space-y-0;
+}
+.footer-container {
+  @apply mx-auto flex max-w-6xl flex-col items-center justify-around space-y-6 py-10 md:flex-row md:space-y-0;
+}
+.footer-text-container {
+  @apply flex flex-col space-y-4 text-center md:flex-row md:space-y-0 md:space-x-5;
+}
+
 /* Background CSS */
 body {
   background-image: url('../images/bg-header-desktop.png');
